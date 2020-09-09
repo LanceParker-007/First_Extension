@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Side Tab",
+    "version": "1.0",
+    "description": "Directly open famous sites in one click",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "tts",
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": [
+            "background.js",
+            "eventpage.js"
+        ],
+        "persistent": false
+    }
+}

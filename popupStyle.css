@@ -1,0 +1,160 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(58, 54, 54);
+    width: 400px;
+    height: 550px;
+    margin: 5% auto 0;
+}
+
+.sign-up-form
+{
+    width: 200px;
+    height: 640px;
+    box-shadow: 0 0 100px 25px rgb(230, 11, 95);
+    background: rgb(55, 56, 53);
+    padding: 5px 5px;
+    margin: 5% auto 0;
+    text-align: center;  
+    border-radius: 20px; 
+}
+
+.sign-up-form:hover
+{
+    box-shadow: 0 0 50px 10px rgb(216, 219, 9);
+}
+
+.fa
+{
+    margin-top: 50px;
+}
+
+.moodle
+{
+    width: 350px;
+    padding: 20px 20px;
+    margin: 2% auto 0;
+    background-color: #ce8c12;
+    color: white;
+    font-size:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px #dd9714;
+}
+
+.fb 
+{
+    width: 350px;
+    padding: 20px 20px;
+    margin: 2% auto 0;
+    background-color: #3B5998;
+    color: white;
+    font-size:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px #3B5998;
+}
+
+.google 
+{
+    /* width: 550px; */
+    padding: 20px 20px;
+    margin: 2% auto 0;
+    background-color: #dd4b39;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px #dd4b39;
+}
+.youtube
+{
+    width: 350px;
+    padding: 20px 20px;
+    margin: 2% auto 0;
+    background-color: #f32409;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px #dd4b39;
+}
+
+.instagram 
+{
+    width: 400px;
+    padding: 15px 15px;
+    margin-top: 20px;
+    background-color: #bc2a8d;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px #bc2a8d;
+}
+
+.github
+{
+    width: 400px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    background-color: #302c2e;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px #d3caca;
+}
+
+.linkedin
+{
+    width: 350px;
+    padding: 20px 20px;
+    background-color: #298fca;
+    color: white;
+    font-size:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px #298fca;
+}
+
+.moodle:hover
+{
+    cursor: pointer;
+    /* border-radius: 50%; */
+    box-shadow: 0px 0px 20px  #fdfdfd;
+}
+
+.fb:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px  #ffffff;
+}
+
+.google:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px  #fdfdfd;
+}
+
+.youtube:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px  #ffffff;
+}
+
+.instagram:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px  #ffffff;
+}
+
+.github:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #dd0d0d;
+}
+
+.linkedin:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px  #fdfdfd;
+}
